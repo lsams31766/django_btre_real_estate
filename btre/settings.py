@@ -128,3 +128,6 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR,'btre/static')
 ]
+
+#superuser name: larry
+#superuser password: lsams07041 
