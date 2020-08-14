@@ -1,0 +1,13 @@
+Deploying to EC2 on AWS
+
+FROM: https://medium.com/saarthi-ai/ec2apachedjango-838e3f6014ab
+
+AWS Console - EC2 - Launch Instance
+Ubuntu Server 18.04 LTS (HVM), SSD Volume Type - x86 Type
+t2 micro 1 GB memory
+Configure security group
+  SSH port 22 0.0.0.0/0
+  HTTP port 80 0.0.0/0
+Create a new key pair btre_keys
+Launch Instance
+make connect_btre.sh - supply key pair, and ip address
